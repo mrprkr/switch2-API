@@ -3,8 +3,8 @@
 Scrapes usage data out of the switch 2 user portal and stores in MongoDB
 
 env:
-- USERNAME=<email address>
-- PASSWORD=<password>
+- USERNAME=`<email address>`
+- PASSWORD=`<password>`
 
 TODO:
 - API to access data as JSON out of mDB
