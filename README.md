@@ -1,4 +1,4 @@
-#Switch 2 API
+# Switch 2 API
 
 Scrapes usage data out of the switch 2 user portal and stores in MongoDB
 

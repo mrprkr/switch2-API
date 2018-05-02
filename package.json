@@ -19,7 +19,6 @@
     "pug": "^2.0.3",
     "request": "^2.85.0",
     "request-promise": "^4.2.2",
-    "tough-cookie": "^2.3.4",
     "underscore": "^1.9.0"
   }
 }

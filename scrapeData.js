@@ -2,15 +2,19 @@ require('dotenv').config();
 
 const rp = require('request-promise');
 const cheerio = require('cheerio');
-const tough = require('tough-cookie');
 const moment = require('moment');
 const MongoClient = require('mongodb').MongoClient;
-const assert = require('assert');
 const _ = require('underscore');
 
 // Pass in the db and cookie object
 module.exports = (db, cookiejar) => {
-console.log('starting scrape...')
+
+
+if(!db || !cookiejar){
+	throw new Error('DB and cookiejar must be supplied to scraper')
+} else {
+	console.log('starting scrape...')
+}
 
 // Options for request-promise
 const options = {
